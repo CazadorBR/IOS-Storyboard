@@ -14,6 +14,8 @@
 		4A599E032B551A1D0041FCFD /* IOS_Examen_R.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A599E012B551A1D0041FCFD /* IOS_Examen_R.xcdatamodeld */; };
 		4A599E052B551A1F0041FCFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A599E042B551A1F0041FCFD /* Assets.xcassets */; };
 		4A599E082B551A1F0041FCFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A599E062B551A1F0041FCFD /* LaunchScreen.storyboard */; };
+		4A599E102B55251C0041FCFD /* detailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A599E0F2B55251C0041FCFD /* detailsController.swift */; };
+		4A599E132B552CB80041FCFD /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A599E122B552CB80041FCFD /* FavoritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4A599E042B551A1F0041FCFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A599E072B551A1F0041FCFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A599E092B551A1F0041FCFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A599E0F2B55251C0041FCFD /* detailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsController.swift; sourceTree = "<group>"; };
+		4A599E122B552CB80041FCFD /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				4A599E062B551A1F0041FCFD /* LaunchScreen.storyboard */,
 				4A599E092B551A1F0041FCFD /* Info.plist */,
 				4A599E012B551A1D0041FCFD /* IOS_Examen_R.xcdatamodeld */,
+				4A599E0F2B55251C0041FCFD /* detailsController.swift */,
+				4A599E122B552CB80041FCFD /* FavoritesViewController.swift */,
 			);
 			path = IOS_Examen_R;
 			sourceTree = "<group>";
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A599E102B55251C0041FCFD /* detailsController.swift in Sources */,
 				4A599DFD2B551A1D0041FCFD /* ViewController.swift in Sources */,
 				4A599DF92B551A1D0041FCFD /* AppDelegate.swift in Sources */,
 				4A599E032B551A1D0041FCFD /* IOS_Examen_R.xcdatamodeld in Sources */,
+				4A599E132B552CB80041FCFD /* FavoritesViewController.swift in Sources */,
 				4A599DFB2B551A1D0041FCFD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
